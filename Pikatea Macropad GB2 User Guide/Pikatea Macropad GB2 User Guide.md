@@ -93,12 +93,6 @@ Note 2: A single UPPERCASE letter is not the same as a single lowercase letter. 
 
 #### All Keys and the correct definition for the configuration file
 
- **Key**
-
-**Defined in the Config**
-
-**Notes/Example**
-
 Key  | Defined in Config | Notes
 ---- | ----------------- | -----
 Up Arrow | UpArrow |
