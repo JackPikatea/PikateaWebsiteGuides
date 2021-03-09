@@ -147,7 +147,7 @@ Scroll Right | ScrollRight | Scrolls up while holding the shift key
 Scroll Left | ScrollLeft | Scrolls down while holding the shift key
 Any other character | a, b, c, d, -, &, #, etc | presses the character
 Type a word or sentence | This is a sentence for example | types 'This is a sentence for example' (**NOTE: the configuration file and the Pikatea macropad has a maximum memory size. We would highly recommend not trying to type out entire paragraphs of text**)
-Delay in milliseconds | Delay(x) | Delay(500) delays the program by half a second | Button1=LeftShift+2+Delay(50)
+Delay in milliseconds | Delay(x) | Delay(500) delays the program by half a second `Button1=LeftShift+2+Delay(50)`
 Number Pad 0-9 | Keypad1, Keypad2, etc
 Number Pad Dot | KeypadDot
 Number Pad Enter | KeypadEnter
