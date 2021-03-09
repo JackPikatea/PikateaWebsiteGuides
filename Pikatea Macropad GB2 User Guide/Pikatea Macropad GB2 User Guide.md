@@ -100,7 +100,7 @@ Note 2: A single UPPERCASE letter is not the same as a single lowercase letter. 
 **Notes/Example**
 
 Key  | Defined in Config | Notes
-- | - | -
+---- | ----------------- | -----
 Up Arrow | UpArrow |
 Down Arrow | DownArrow |
 Right Arrow | RightArrow |
