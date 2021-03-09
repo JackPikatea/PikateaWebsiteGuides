@@ -1,10 +1,10 @@
-### Introduction
+## Introduction
 
 Congratulations on receiving your Pikatea Macropad GB2! This quick guide will walk you through how to use it. 
 
 For Macropads bought in 2020, [Follow this guide](https://www.pikatea.com/pages/firmware-update-guide) to update the firmware to version 1.2
 
-### What’s in the Box
+## What’s in the Box
 
 *   (1) Pikatea Macropad GB2
 *   (1) micro SD card
@@ -13,13 +13,13 @@ For Macropads bought in 2020, [Follow this guide](https://www.pikatea.com/pages
 *   (2) Screws
 *   (1) Sticker
 
-### Mounting
+## Mounting
 
 Mounting can be done with the included screws or the doubled sided tape already attached. Remove the red plastic to reveal the adhesive part of the mounting tape. Align the Macropad to the underside of your desk or monitor and press firmly for 10 seconds. The bond will grow stronger over time. **Be careful not to cover up any monitor buttons.** More mounting tape can be bought on Amazon or a hardware store. We can ship mounting tape for a small fee.
 
 **Note: The USB cable can act as a lever and pry the macropad off if you accidently pull the cord. We would recommend you secure the cable a bit behind the macropad so that if the cable is pulled, it doesn't pull directly on it and cause it to fall off.**
 
-### Programming and Usage
+## Programming and Usage
 
 Programming can be done with an SD card (default option) or with an interface on the computer using VIAL. Scroll down to the bottom to find information on using VIAL
 
@@ -33,13 +33,13 @@ The Pikatea Macropad uses an SD card to read the configuration for how it should
 6.  Place the SD card back into the Macropad.
 7.  Press the small button on the backside to load the configuration to memory.
 
-### Details on Editing the Text File
+## Details on Editing the Text File
 
 The configuration text file is used to tell the Pikatea Macropad what to do after each button press, hold, or knob rotation. Use the starter configuration and examples to get started. 
 
 The configuration for each button (or knob) is defined after the equals sign on each line. To edit button 1, for example, change the text after 'Button1='.
 
-#### **Hotkeys or a combination of key presses**
+## Hotkeys or a combination of key presses
 
 Each button press, hold, or knob rotation configuration can include a combination of keys that will be pressed all at once. Using the table below, specify each action with a '+' sign in between them. Examples and a starter configuration are listed below:
 
@@ -49,47 +49,47 @@ Note 2: A single UPPERCASE letter is not the same as a single lowercase letter. 
 
 #### Starter configuration - [download starter configuration](https://www.mediafire.com/file/3srt1rztk352adb/CONFIG.txt/file "Download Pikatea Macropad Starter Configuration")
 
-deejmode=false  
-deejSensitivity=32  
-  
-EncoderConstant=3  
-KnobButton=Mute  
-KnobCW=VolumeUp  
-KnobCCW=VolumeDown  
-  
-Button1=F13  
-Button2=F14  
-Button3=Previous  
-Button4=PlayPause  
-Button5=Next  
-  
-Button1Hold=  
-Button2Hold=  
-Button3Hold=  
-Button4Hold=  
-Button5Hold=
+>deejmode=false  
+>deejSensitivity=32  
+> 
+>EncoderConstant=3  
+>KnobButton=Mute  
+>KnobCW=VolumeUp  
+>KnobCCW=VolumeDown  
+>  
+>Button1=F13  
+>Button2=F14  
+>Button3=Previous  
+>Button4=PlayPause  
+>Button5=Next  
+>  
+>Button1Hold=  
+>Button2Hold=  
+>Button3Hold=  
+>Button4Hold=  
+>Button5Hold=
 
 #### Example configuration
 
-deejmode=false  
-deejSensitivity=32  
-  
-EncoderConstant=3  
-KnobButton=Mute  
-KnobCW=VolumeUp  
-KnobCCW=VolumeDown  
-  
-Button1=Ctrl+Alt+t  
-Button2=Alt+Tab  
-Button3=Previous  
-Button4=PlayPause  
-Button5=Next  
-  
-Button1Hold=Menu+Shift+s  
-Button2Hold=Ctrl+p  
-Button3Hold=  
-Button4Hold=  
-Button5Hold=UpArrow+Release+Delay(500)+DownArrow
+> deejmode=false  
+> deejSensitivity=32  
+>
+> EncoderConstant=3  
+> KnobButton=Mute  
+> KnobCW=VolumeUp  
+> KnobCCW=VolumeDown  
+>  
+> Button1=Ctrl+Alt+t  
+> Button2=Alt+Tab  
+> Button3=Previous  
+> Button4=PlayPause  
+> Button5=Next  
+> 
+> Button1Hold=Menu+Shift+s  
+> Button2Hold=Ctrl+p  
+> Button3Hold=  
+> Button4Hold=  
+> Button5Hold=UpArrow+Release+Delay(500)+DownArrow
 
 #### All Keys and the correct definition for the configuration file
 
@@ -98,6 +98,11 @@ Button5Hold=UpArrow+Release+Delay(500)+DownArrow
 **Defined in the Config**
 
 **Notes/Example**
+
+Table test  | test Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 Up Arrow
 
@@ -410,7 +415,7 @@ Example: UpArrow+Release+Delay(500)+DownArrow
 
 This will press the up arrow and then press the down arrow 500 milliseconds later.
 
-### Example Uses
+## Example Uses
 
 This is a list I've generated of useful ways and programs to use the Pikatea Macropad with. This is just an example. In reality, the possibilities are endless.
 
@@ -427,7 +432,7 @@ Note: OBS requires an extra delay attached to the end of a configured hotkey. Fo
 
 *   **Video Editing** \- Program the knob to press the correct keys to move the timeline back and forth for any video editing program. 
 
-### deej Software Usage
+## deej Software Usage
 
 The Pikatea Macropad works with deej. deej is an open-source hardware volume mixer for Windows and Linux PCs. It lets you use real-life sliders (or in this case, your Pikatea Macropad) to seamlessly control the volumes of different apps (such as your music player, the game you're playing and your voice chat session) without having to stop what you're doing.
 
@@ -437,7 +442,7 @@ Enable deej mode by changing the configuration from deejmode=false to deejmode=t
 
 Once enabled, button holds will not work as usual. They will instead activate 1 of 5 virtual sliders which can then be adjusted with the knob. If you want to control the program attached to slider 3 for example, hold down button 3 for a moment and then turn the knob. You'll have to find out what port your macropad is connected to your computer with as well. More information on deej setup can be found on the [deej Github](https://github.com/omriharel/deej "deej Github"). Please email Pikatea support if you have questions.
 
-### QMK and VIA and VIAL Programming
+## QMK and VIA and VIAL Programming
 
 The Pikatea Macropad is compatible with QMK, VIA and VIAL firmware. 
 
@@ -453,7 +458,7 @@ After updating the device with VIAL compatible firmware and installing VIAL, con
 
 A pre-built QMK VIA compatible firmware is available to download and is outlined in the [firmware update guide here](https://www.pikatea.com/pages/firmware-update-guide)
 
-### Troubleshooting
+## Troubleshooting
 
 Sometimes the device doesn't work as expected or doesn't seem to work at all. If this is the case, we can do a replacement/repair up to 3 months after receiving your device. 
 
