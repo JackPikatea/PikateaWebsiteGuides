@@ -101,44 +101,42 @@ Note 2: A single UPPERCASE letter is not the same as a single lowercase letter. 
 
 Key  | Defined in Config | Notes
 - | - | -
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-Up Arrow | UpArrow
-Down Arrow | DownArrow
-Right Arrow | RightArrow
-Left Arrow | LeftArrow
+Up Arrow | UpArrow |
+Down Arrow | DownArrow |
+Right Arrow | RightArrow |
+Left Arrow | LeftArrow |
 Volume Up | VolumeUp | KnobCW=VolumeUp
 Volume Down | VolumeDown | KnobCCW=VolumeDown
-Backspace | Backspace
+Backspace | Backspace |
 Space | Space | the space character
 \+ | PlusSign | Button3=Ctrl+PlusSign
-\- | MinusSign
+\- | MinusSign |
 Tab | Tab | Button1Hold=Alt+Tab
 Return | Return | the enter key
-Escape | Escape
-Insert | Insert
-Delete | Delete
+Escape | Escape |
+Insert | Insert |
+Delete | Delete |
 Page Up | PageUp | KnobCCW=PageUp
 Page Down | PageDown | KnobCW=PageDown
-Home | Home
-End | End
+Home | Home |
+End | End |
 Caps Lock | CapsLock
 Play/Pause | PlayPause | Plays or pauses the current music/media
-Next | Next |Plays the next song/media
+Next | Next | Plays the next song/media
 Previous | Previous | Play the previous song/media
 Mute | Mute | Sets the volume to zero
 Left Shift or Shift | LeftShift or Shift | Button1=LeftShift+2
 Left Ctrl or Ctrl | LeftCtrl or Ctrl | Button4=Ctrl+p
 Left Alt or Alt | LeftAlt or Alt | Button5=Alt+Tab
 Left Menu or Menu | LeftMenu or Menu | Windows Menu or Mac Command Key 
-Right Shift | RightShift 
-Right Ctrl | RightCtrl
-Right Alt | RightAlt
+Right Shift | RightShift |
+Right Ctrl | RightCtrl |
+Right Alt | RightAlt |
 Right Menu | RightMenu | Windows Menu or Mac Command Key
 F1-F12 | F1, F2, F3, etc | Button4Hold=Ctrl+F11 or Button2=Alt+RightShift+F5
-Left Mouse Click | MouseLeft
-Right Mouse Click | MouseRight
-Middle Mouse Click | MouseMiddle
+Left Mouse Click | MouseLeft |
+Right Mouse Click | MouseRight |
+Middle Mouse Click | MouseMiddle |
 Scroll Up | ScrollUp | scrolls the mouse wheel at a slower speed
 Scroll Down | ScrollDown | scrolls the mouse wheel at a slower speed
 Scroll Up Fast | ScrollUpFast | scrolls the mouse wheel 3x faster
@@ -148,14 +146,14 @@ Scroll Left | ScrollLeft | Scrolls down while holding the shift key
 Any other character | a, b, c, d, -, &, #, etc | presses the character
 Type a word or sentence | This is a sentence for example | types 'This is a sentence for example' (**NOTE: the configuration file and the Pikatea macropad has a maximum memory size. We would highly recommend not trying to type out entire paragraphs of text**)
 Delay in milliseconds | Delay(x) | Delay(500) delays the program by half a second `Button1=LeftShift+2+Delay(50)`
-Number Pad 0-9 | Keypad1, Keypad2, etc
-Number Pad Dot | KeypadDot
-Number Pad Enter | KeypadEnter
-Number Pad Add/Plus | KeypadAdd
-Number Pad Subtract/Minus | KeypadMinus
-Number Pad Multiply/Star | KeypadMultiply
-Number Pad Divide | KeypadDivide
-Num Lock | KeyNumLock
+Number Pad 0-9 | Keypad1, Keypad2, etc |
+Number Pad Dot | KeypadDot |
+Number Pad Enter | KeypadEnter |
+Number Pad Add/Plus | KeypadAdd |
+Number Pad Subtract/Minus | KeypadMinus |
+Number Pad Multiply/Star | KeypadMultiply |
+Number Pad Divide | KeypadDivide |
+Num Lock | KeyNumLock |
 F13-F24 | F13, F14, F22, etc | Button3=F17
 Media Rewind | Rewind | Rewinds the current song/media
 Media Fast Forward | FastForward | Button1Hold=FastForward
