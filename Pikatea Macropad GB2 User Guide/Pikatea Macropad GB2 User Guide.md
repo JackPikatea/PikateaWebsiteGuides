@@ -156,7 +156,7 @@ Release/action chaining | Release | Used to release the current keys. This is us
 
 ## Example Uses
 
-This is a list I've generated of useful ways and programs to use the Pikatea Macropad with. This is just an example. In reality, the possibilities are endless.
+This is a list I've generated of useful ways and programs to use the Pikatea Macropad with. This is just an example. In reality, the possibilities are endless. Add your own use cases by [editing the github page](https://github.com/JackPikatea/PikateaWebsiteGuides/tree/main/Pikatea%20Macropad%20GB2%20User%20Guide)
 
 *   **Music control** - My favorite way to use the Pikatea Macropad. I usually configure 3 buttons for Play/Pause, Next and Previous songs. The knob is used to control volume. This works well with Spotify. 
 
@@ -202,3 +202,5 @@ A pre-built QMK VIA compatible firmware is available to download and is outlined
 Sometimes the device doesn't work as expected or doesn't seem to work at all. If this is the case, we can do a replacement/repair up to 3 months after receiving your device. 
 
 [Follow this guide here](https://www.pikatea.com/pages/pikatea-macropad-gb2-functionality-verification-guide) to install the debugging firmware and use it to determine if parts of the macropad are not working.
+
+[*Edit this page*](https://github.com/JackPikatea/PikateaWebsiteGuides/tree/main/Pikatea%20Macropad%20GB2%20User%20Guide)
